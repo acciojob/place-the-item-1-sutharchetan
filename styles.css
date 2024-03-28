@@ -1,2 +1,19 @@
-
-/* Your CSS Code here. */
+.holder{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+.item{
+	height:50px;
+	width:50px;
+	background-color:green;
+	
+}
+#a{
+	background-color:red;
+	order:6;
+}
+#b{
+	background-color: blue;
+	order:7;
+}
